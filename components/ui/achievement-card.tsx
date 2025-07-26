@@ -69,7 +69,7 @@ export default function AchievementCard({
               <div className="w-full h-full bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden border-2 border-gray-100 dark:border-gray-700 transition-all duration-300 group-hover:shadow-xl">
                 
                 {/* Image Section */}
-                <div className="relative h-50 overflow-hidden">
+                <div className="relative h-52 overflow-hidden">
                   <img 
                     src={imageSrc} 
                     alt={title} 
@@ -78,7 +78,7 @@ export default function AchievementCard({
                   
                   {/* Date Badge */}
                   <div className="absolute top-3 left-3">
-                    <span className="px-3 py-1.5 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-full text-xs font-semibold text-gray-700 dark:text-gray-200 shadow-md border border-white/50 dark:border-gray-700/50">
+                    <span className="px-3 py-1.5 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-full text-xs text-gray-700 dark:text-gray-200 shadow-md border border-white/50 dark:border-gray-700/50 tracking-tighter">
                       {date}
                     </span>
                   </div>
@@ -91,11 +91,11 @@ export default function AchievementCard({
                 
                 {/* Content Section */}
                 <div className="p-5 bg-white dark:bg-gray-800">
-                  <h4 className="text-lg font-bold text-gray-800 dark:text-gray-100 mb-2 leading-tight line-clamp-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
+                  <h4 className="text-md font-bold text-gray-800 dark:text-gray-100 mb-2 leading-tight line-clamp-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300 tracking-tighter">
                     {title}
                   </h4>
                   
-                  <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-3 leading-relaxed">
+                  <p className="text-xs text-gray-600 dark:text-gray-300 line-clamp-3 leading-relaxed tracking-tight">
                     {description}
                   </p>
                   

@@ -137,7 +137,7 @@ export default function HeroSection() {
       </motion.svg>
 
       <motion.svg
-        className="hidden lg:block w-14 h-14 absolute top-1/4 right-1/4 rotate-12 drop-shadow-[0_16px_24px_rgba(247,147,20,0.35)] z-10"
+        className="hidden lg:block w-14 h-14 absolute top-1/4 right-1/4 rotate-12 drop-shadow-[0_16px_24px_rgba(247,147,20,0.35)] z-10 "
         style={{
           x: mousePosition.x * 0.04,
           y: mousePosition.y * 0.04,
@@ -157,10 +157,10 @@ export default function HeroSection() {
         />
       </motion.svg>
 
-      <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-r from-red-600 via-purple-600 to-blue-500 dark:from-red-600 dark:via-purple-600 dark:to-blue-500 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-sans relative z-20 font-bold tracking-tight leading-tight mb-4 px-4">
-        &lt;&gt; CALL OF CODE &lt;/&gt;
+      <h2 className="mt-28 font-press bg-clip-text text-transparent text-center bg-gradient-to-r from-red-600 via-purple-600 to-blue-500 dark:from-red-600 dark:via-purple-600 dark:to-blue-500 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl relative z-20 font-bold tracking-tight leading-tight mb-8 px-4">
+        &lt;CALL OF CODE /&gt;
       </h2>
-      <p className="max-w-xl mx-auto text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-neutral-700 dark:text-neutral-400 text-center leading-relaxed px-4 mb-8">
+      <p className="max-w-lg text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg text-neutral-700 dark:text-neutral-400 text-center leading-relaxed mb-8 tracking-tight">
         Welcome to Call of Code! Join us to explore, innovate, and collaborate on exciting projects while enhancing your coding skills through workshops, hackathons, and peer learning.
       </p>
       <div className="hidden md:block">

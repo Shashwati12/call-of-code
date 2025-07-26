@@ -30,7 +30,7 @@ export default function MembersCard({
 
         {/* Name + Socials */}
         <div className="p-4">
-          <h3 className="font-semibold text-lg text-center text-black dark:text-white mb-3 break-words">
+          <h3 className="font-semibold text-md text-center text-black dark:text-white mb-3 break-words">
             {name}
           </h3>
 

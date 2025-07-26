@@ -14,6 +14,12 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const pressStart2P = localFont({
+  src: "./fonts/PressStart2P-Regular.ttf", // ✅ Make sure this path and extension are correct
+  variable: "--font-press-start",
+  weight: "400",
+});
+
 
 export const metadata: Metadata = {
   title: "Call of Code",
@@ -28,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={` ${pressStart2P.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider>
           <div className="fixed top-4 right-4 z-50">

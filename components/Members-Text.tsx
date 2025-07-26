@@ -225,9 +225,9 @@ export default function MembersPage() {
     className="object-cover brightness-75"
   />
   <div className="absolute inset-0 flex items-center justify-center bg-black/20 px-4 text-center">
-    <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-wide text-white drop-shadow-lg mt-36">
+    <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-wide text-white drop-shadow-lg mt-36">
       MEMBERS
-    </h1>
+    </h2>
   </div>
 </div>
 

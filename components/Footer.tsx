@@ -101,7 +101,7 @@ const Footer = () => {
         {/* Header */}
         <div className="text-center">
           <h1 className="whitespace-nowrap text-[1.25rem] sm:text-3xl md:text-5xl lg:text-6xl leading-relaxed">
-            &lt;CALL OF CODE&gt;
+            &lt;CALL OF CODE /&gt;
           </h1>
           <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 mt-4 transition-all duration-300">
             A platform where coders unite to learn, build, and collaborate.
