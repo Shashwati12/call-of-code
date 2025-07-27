@@ -25,6 +25,11 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+      press: ['var(--font-press-start)', 'monospace'],
+      geist: ['var(--font-geist-sans)', 'sans-serif'],
+      mono: ['var(--font-geist-mono)', 'monospace'],
+      },
       transformOrigin: {
         "style-3d": "preserve-3d",
       },

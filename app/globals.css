@@ -61,10 +61,10 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply font-press border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-press;
   }
   html {
     @apply scroll-smooth;

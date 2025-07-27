@@ -49,7 +49,7 @@ export const Tabs = ({
             onClick={() => moveSelectedTabToTop(idx)}
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
-            className="relative pb-2 text-base sm:text-lg md:text-xl font-semibold text-white transition-colors"
+            className="relative pb-2 sm:text-sm md:text-md font-semibold text-white transition-colors"
           >
             <span
               className={cn(
